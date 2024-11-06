@@ -1,0 +1,55 @@
+
+.chicken-container {
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 1rem; 
+    margin: 1.5rem 0; 
+    background-color: #fff; 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.chicken-container h2 {
+    font-size: 1.5rem; 
+    color: #007bff; 
+    margin: 1rem 0; 
+}
+
+
+.chicken-container p {
+    font-size: 1rem; 
+    color: #333; 
+    margin: 0.5rem 0; 
+}
+
+
+.ingredients {
+    background-color: #e7f3ff; 
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+
+button {
+    padding: 0.5rem 1rem; 
+    margin-top: 1rem; 
+    background-color: green; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+.chicken-container > div {
+    margin-top: 1rem; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}

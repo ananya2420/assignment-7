@@ -1,0 +1,67 @@
+
+.cook-section, .cooking-section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-5xl {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .table thead th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  .table tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th, .table td {
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  .table tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+  }
+
+  .table .font-bold {
+    background-color: #e7f3ff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #007bff;
+  }
+  
+
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+
+  .table tbody tr:hover {
+    background-color: #eef;
+  }
+  
